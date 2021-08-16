@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6943" started-at="2021-08-16T18:38:54Z" finished-at="2021-08-16T18:39:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6943" started-at="2021-08-16T18:38:54Z" finished-at="2021-08-16T18:39:01Z">
+      <class name="todoApp.todosTest">
+        <test-method status="PASS" signature="start()[pri:0, instance:todoApp.todosTest@2145b572]" name="start" is-config="true" duration-ms="3846" started-at="2021-08-16T18:38:54Z" finished-at="2021-08-16T18:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="before()[pri:0, instance:todoApp.todosTest@2145b572]" name="before" is-config="true" duration-ms="329" started-at="2021-08-16T18:38:58Z" finished-at="2021-08-16T18:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test01_creatItems()[pri:0, instance:todoApp.todosTest@2145b572]" name="test01_creatItems" duration-ms="5" started-at="2021-08-16T18:38:58Z" finished-at="2021-08-16T18:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_creatItems -->
+        <test-method status="PASS" signature="after()[pri:0, instance:todoApp.todosTest@2145b572]" name="after" is-config="true" duration-ms="75" started-at="2021-08-16T18:38:58Z" finished-at="2021-08-16T18:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="close()[pri:0, instance:todoApp.todosTest@2145b572]" name="close" is-config="true" duration-ms="2661" started-at="2021-08-16T18:38:58Z" finished-at="2021-08-16T18:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- todoApp.todosTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
