@@ -5,7 +5,9 @@
     <classes>
       <class name="todoApp.todosTest">
         <methods>
-          <include name="test01_creatItems"/>
+          <include name="test06_renameIteme"/>
+          <include name="before"/>
+          <include name="after"/>
           <include name="start"/>
           <include name="close"/>
         </methods>

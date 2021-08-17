@@ -1,29 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6943" started-at="2021-08-16T18:38:54Z" finished-at="2021-08-16T18:39:01Z">
+  <suite name="Default suite" duration-ms="15781" started-at="2021-08-17T11:15:56Z" finished-at="2021-08-17T11:16:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6943" started-at="2021-08-16T18:38:54Z" finished-at="2021-08-16T18:39:01Z">
+    <test name="Default test" duration-ms="15781" started-at="2021-08-17T11:15:56Z" finished-at="2021-08-17T11:16:12Z">
       <class name="todoApp.todosTest">
-        <test-method status="PASS" signature="start()[pri:0, instance:todoApp.todosTest@2145b572]" name="start" is-config="true" duration-ms="3846" started-at="2021-08-16T18:38:54Z" finished-at="2021-08-16T18:38:58Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:todoApp.todosTest@2145b572]" name="start" is-config="true" duration-ms="3517" started-at="2021-08-17T11:15:57Z" finished-at="2021-08-17T11:16:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="before()[pri:0, instance:todoApp.todosTest@2145b572]" name="before" is-config="true" duration-ms="329" started-at="2021-08-16T18:38:58Z" finished-at="2021-08-16T18:38:58Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:todoApp.todosTest@2145b572]" name="before" is-config="true" duration-ms="321" started-at="2021-08-17T11:16:00Z" finished-at="2021-08-17T11:16:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="test01_creatItems()[pri:0, instance:todoApp.todosTest@2145b572]" name="test01_creatItems" duration-ms="5" started-at="2021-08-16T18:38:58Z" finished-at="2021-08-16T18:38:58Z">
+        <test-method status="PASS" signature="test01_creatItems()[pri:0, instance:todoApp.todosTest@2145b572]" name="test01_creatItems" duration-ms="32" started-at="2021-08-17T11:16:00Z" finished-at="2021-08-17T11:16:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01_creatItems -->
-        <test-method status="PASS" signature="after()[pri:0, instance:todoApp.todosTest@2145b572]" name="after" is-config="true" duration-ms="75" started-at="2021-08-16T18:38:58Z" finished-at="2021-08-16T18:38:58Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:todoApp.todosTest@2145b572]" name="after" is-config="true" duration-ms="943" started-at="2021-08-17T11:16:00Z" finished-at="2021-08-17T11:16:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="close()[pri:0, instance:todoApp.todosTest@2145b572]" name="close" is-config="true" duration-ms="2661" started-at="2021-08-16T18:38:58Z" finished-at="2021-08-16T18:39:01Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:todoApp.todosTest@2145b572]" name="before" is-config="true" duration-ms="295" started-at="2021-08-17T11:16:01Z" finished-at="2021-08-17T11:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test02_filterCompleted()[pri:0, instance:todoApp.todosTest@2145b572]" name="test02_filterCompleted" duration-ms="189" started-at="2021-08-17T11:16:02Z" finished-at="2021-08-17T11:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_filterCompleted -->
+        <test-method status="PASS" signature="after()[pri:0, instance:todoApp.todosTest@2145b572]" name="after" is-config="true" duration-ms="966" started-at="2021-08-17T11:16:02Z" finished-at="2021-08-17T11:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:todoApp.todosTest@2145b572]" name="before" is-config="true" duration-ms="292" started-at="2021-08-17T11:16:03Z" finished-at="2021-08-17T11:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test03_filterActive()[pri:0, instance:todoApp.todosTest@2145b572]" name="test03_filterActive" duration-ms="189" started-at="2021-08-17T11:16:03Z" finished-at="2021-08-17T11:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_filterActive -->
+        <test-method status="PASS" signature="after()[pri:0, instance:todoApp.todosTest@2145b572]" name="after" is-config="true" duration-ms="930" started-at="2021-08-17T11:16:03Z" finished-at="2021-08-17T11:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:todoApp.todosTest@2145b572]" name="before" is-config="true" duration-ms="301" started-at="2021-08-17T11:16:04Z" finished-at="2021-08-17T11:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test04_clearComplete()[pri:0, instance:todoApp.todosTest@2145b572]" name="test04_clearComplete" duration-ms="174" started-at="2021-08-17T11:16:05Z" finished-at="2021-08-17T11:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_clearComplete -->
+        <test-method status="PASS" signature="after()[pri:0, instance:todoApp.todosTest@2145b572]" name="after" is-config="true" duration-ms="629" started-at="2021-08-17T11:16:05Z" finished-at="2021-08-17T11:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:todoApp.todosTest@2145b572]" name="before" is-config="true" duration-ms="297" started-at="2021-08-17T11:16:05Z" finished-at="2021-08-17T11:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test05_itemsLeft()[pri:0, instance:todoApp.todosTest@2145b572]" name="test05_itemsLeft" duration-ms="34" started-at="2021-08-17T11:16:06Z" finished-at="2021-08-17T11:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test05_itemsLeft -->
+        <test-method status="PASS" signature="after()[pri:0, instance:todoApp.todosTest@2145b572]" name="after" is-config="true" duration-ms="890" started-at="2021-08-17T11:16:06Z" finished-at="2021-08-17T11:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:todoApp.todosTest@2145b572]" name="before" is-config="true" duration-ms="299" started-at="2021-08-17T11:16:07Z" finished-at="2021-08-17T11:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test06_renameIteme()[pri:0, instance:todoApp.todosTest@2145b572]" name="test06_renameIteme" duration-ms="638" started-at="2021-08-17T11:16:07Z" finished-at="2021-08-17T11:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_renameIteme -->
+        <test-method status="PASS" signature="after()[pri:0, instance:todoApp.todosTest@2145b572]" name="after" is-config="true" duration-ms="915" started-at="2021-08-17T11:16:07Z" finished-at="2021-08-17T11:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:todoApp.todosTest@2145b572]" name="before" is-config="true" duration-ms="294" started-at="2021-08-17T11:16:08Z" finished-at="2021-08-17T11:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test07_deleteIteme()[pri:0, instance:todoApp.todosTest@2145b572]" name="test07_deleteIteme" duration-ms="315" started-at="2021-08-17T11:16:09Z" finished-at="2021-08-17T11:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test07_deleteIteme -->
+        <test-method status="PASS" signature="after()[pri:0, instance:todoApp.todosTest@2145b572]" name="after" is-config="true" duration-ms="617" started-at="2021-08-17T11:16:09Z" finished-at="2021-08-17T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="close()[pri:0, instance:todoApp.todosTest@2145b572]" name="close" is-config="true" duration-ms="2661" started-at="2021-08-17T11:16:10Z" finished-at="2021-08-17T11:16:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

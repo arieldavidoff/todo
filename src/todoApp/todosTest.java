@@ -1,5 +1,7 @@
 package todoApp;
 
+import static org.testng.Assert.assertEquals;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -45,24 +47,69 @@ public class todosTest extends todosM
 		createItem( "AAA");
 		createItem( "BBB");
 		createItem( "CCC");
-	
+
 
 	}
-	
+
 
 	@AfterMethod
 	public void after()
 	{
 		filterAll();
-		//deleteAllItem();
+		deleteAllItem();
 	}
 
 	@Test 
 	public void test01_creatItems()
 	{
-		
+		assertEquals(getItemNumber(),3);
 	}
 
+	@Test 
+	public void test02_filterCompleted()
+	{
+		toggleItem(2);
+		filterCompleted();
+		assertEquals(getItemNumber(),1);
+	}
 
+	@Test 
+	public void test03_filterActive()
+	{
+		toggleItem(2);
+		filterActive();
+		assertEquals(getItemNumber(),2);
+	}
 
+	@Test 
+	public void test04_clearComplete()
+	{
+		toggleItem(2);
+		clearComplete();
+		assertEquals(getItemNumber(),2);
+	}
+	
+	@Test 
+	public void test05_itemsLeft()
+	{
+	
+		assertEquals(itemsLeft(),3);
+	}
+	
+	@Test 
+	public void test06_renameIteme()
+	{
+		renameIteme(2, "Avi ti gandon");
+		assertEquals(getItemName(2),"Avi ti gandon");
+	}
+	
+	@Test 
+	public void test07_deleteIteme()
+	{
+		deleteItem(0);
+		assertEquals(getItemNumber(),2);
+	}
+	
+	
 }
+
